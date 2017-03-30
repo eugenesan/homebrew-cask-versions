@@ -5,6 +5,8 @@ cask :v1 => 'firefox-beta' do
   url "https://download.mozilla.org/?product=firefox-#{version}&os=osx&lang=en-US"
   homepage 'https://www.mozilla.org/en-US/firefox/beta/'
   license :oss
+  
+  auto_updates true
 
   app 'Firefox.app'
 end
